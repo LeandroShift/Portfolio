@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    color: #ededed;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(10, 78, 134);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    cursor: pointer;
+
+
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+    opacity: 0;
+    animation: slideTop .5s forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover {
+    color: rgb(104, 172, 204);
+
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.container {
+    padding: 90px;
+}
+
+
+.read {
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(104, 172, 204);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(104, 172, 204);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px rgb(4, 78, 112),
+        0 0 25px rgb(4, 78, 112);
+
+
+}
+
+.read:hover {
+    background: rgb(5, 103, 148);
+    color: black;
+    box-shadow: 0 0 20px rgb(4, 78, 112);
+
+}
+
+.services-list div:hover {
+    transform: translateY(-12px);
+
+}
+
+
+.last-text p{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(4, 78, 112);
+    font-weight: 300;
+    margin-top: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para telas pequenas (até 768px) */
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    
+    }
+    
+    body {
+        color: #ededed;
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: rgb(10, 78, 134);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    
+    }
+    
+    .logo {
+        position: relative;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: default;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        cursor: pointer;
+    
+    
+    }
+    
+    .navbar a {
+        display: inline-block;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: 3s;
+        opacity: 0;
+        animation: slideTop .5s forwards;
+        animation-delay: calc(.2s * var(--i));
+    }
+    
+    .navbar a:hover {
+        color: rgb(104, 172, 204);
+    
+    }
+    
+    .sub-title {
+        text-align: center;
+        font-size: 60px;
+        padding-bottom: 70px;
+    }
+    
+    .container {
+        padding: 90px;
+    }
+    
+    
+    .read {
+        display: inline-block;
+        padding: 12px 28px;
+        background: rgb(104, 172, 204);
+        border-radius: 40px;
+        font-size: 16px;
+        color: rgb(104, 172, 204);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px rgb(4, 78, 112),
+            0 0 25px rgb(4, 78, 112);
+    
+    
+    }
+    
+    .read:hover {
+        background: rgb(5, 103, 148);
+        color: black;
+        box-shadow: 0 0 20px rgb(4, 78, 112);
+    
+    }
+    
+    .services-list div:hover {
+        transform: translateY(-12px);
+    
+    }
+}
+
+/* Estilos para telas médias (de 769px a 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    
+    }
+    
+    body {
+        color: #ededed;
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: rgb(10, 78, 134);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    
+    }
+    
+    .logo {
+        position: relative;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: default;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        cursor: pointer;
+    
+    
+    }
+    
+    .navbar a {
+        display: inline-block;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: 3s;
+        opacity: 0;
+        animation: slideTop .5s forwards;
+        animation-delay: calc(.2s * var(--i));
+    }
+    
+    .navbar a:hover {
+        color: rgb(104, 172, 204);
+    
+    }
+    
+    .sub-title {
+        text-align: center;
+        font-size: 60px;
+        padding-bottom: 70px;
+    }
+    
+    .container {
+        padding: 90px;
+    }
+    
+    
+    .read {
+        display: inline-block;
+        padding: 12px 28px;
+        background: rgb(104, 172, 204);
+        border-radius: 40px;
+        font-size: 16px;
+        color: rgb(104, 172, 204);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px rgb(4, 78, 112),
+            0 0 25px rgb(4, 78, 112);
+    
+    
+    }
+    
+    .read:hover {
+        background: rgb(5, 103, 148);
+        color: black;
+        box-shadow: 0 0 20px rgb(4, 78, 112);
+    
+    }
+    
+    .services-list div:hover {
+        transform: translateY(-12px);
+    
+    }
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+/* Estilos para telas grandes (a partir de 1025px) */
+@media only screen and (min-width: 1025px) {
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    
+    }
+    
+    body {
+        color: #ededed;
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: rgb(10, 78, 134);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    
+    }
+    
+    .logo {
+        position: relative;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: default;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        cursor: pointer;
+    
+    
+    }
+    
+    .navbar a {
+        display: inline-block;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: 3s;
+        opacity: 0;
+        animation: slideTop .5s forwards;
+        animation-delay: calc(.2s * var(--i));
+    }
+    
+    .navbar a:hover {
+        color: rgb(104, 172, 204);
+    
+    }
+    
+    .sub-title {
+        text-align: center;
+        font-size: 60px;
+        padding-bottom: 70px;
+    }
+    
+    .container {
+        padding: 90px;
+    }
+    
+    
+    .read {
+        display: inline-block;
+        padding: 12px 28px;
+        background: rgb(104, 172, 204);
+        border-radius: 40px;
+        font-size: 16px;
+        color: rgb(104, 172, 204);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px rgb(4, 78, 112),
+            0 0 25px rgb(4, 78, 112);
+    
+    
+    }
+    
+    .read:hover {
+        background: rgb(5, 103, 148);
+        color: black;
+        box-shadow: 0 0 20px rgb(4, 78, 112);
+    
+    }
+    
+    .services-list div:hover {
+        transform: translateY(-12px);
+    
+    }
+}
+
+
+
+
+
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

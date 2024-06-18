@@ -1,0 +1,182 @@
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.skills-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: backgroud 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 10px rgb(104, 172, 204),
+        1px 1px 10px rgb(104, 172, 204)
+}
+
+.skills-list i {
+    font-size: 80px;
+    margin-bottom: 30px;
+
+}
+
+.skills-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.skills-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para telas pequenas (até 768px) */
+@media only screen and (max-width: 768px) {
+    
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.skills-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: backgroud 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 10px rgb(104, 172, 204),
+        1px 1px 10px rgb(104, 172, 204)
+}
+
+.skills-list i {
+    font-size: 80px;
+    margin-bottom: 30px;
+
+}
+
+.skills-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.skills-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+}
+
+/* Estilos para telas médias (de 769px a 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+    
+    .skills-list div {
+        background-color: transparent;
+        padding: 40px;
+        font-size: 13px;
+        font-weight: 13px;
+        border-right: 10px;
+        border-radius: 20px;
+        transition: backgroud 0.5s, transform 0.5s;
+        box-shadow: 1px 1px 10px rgb(104, 172, 204),
+            1px 1px 10px rgb(104, 172, 204)
+    }
+    
+    .skills-list i {
+        font-size: 80px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .skills-list div h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    
+    .skills-list div a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 12px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    
+}
+
+/* Estilos para telas grandes (a partir de 1025px) */
+@media only screen and (min-width: 1025px) {
+    
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.skills-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: backgroud 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 10px rgb(104, 172, 204),
+        1px 1px 10px rgb(104, 172, 204)
+}
+
+.skills-list i {
+    font-size: 80px;
+    margin-bottom: 30px;
+
+}
+
+.skills-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.skills-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+}

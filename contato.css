@@ -1,0 +1,429 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 380px;
+}
+
+.contact-text h2 {
+    margin-top: 65px;
+    font-size: 100px;
+    line-height: 1;
+    text-align: center;
+}
+
+.contact-text h4 {
+    margin: 45px 0;
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-text p {
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+.contact-list {
+    margin-bottom: 3rem;
+
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-list i {
+    display: inline-block;
+    color: rgb(4, 78, 112);
+    font-size: 25px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 220px;
+}
+
+.contact-form form .send {
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(104, 172, 204);
+    border-radius: 40px;
+    font-size: 18px;
+    color: rgb(4, 78, 112);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px rgb(4, 78, 112),
+        0 0 25px rgb(4, 78, 112);
+    cursor: pointer;
+
+}
+
+.contact-form form .send:hover {
+    background: rgb(5, 103, 148);
+    color: black;
+    box-shadow: 0 0 20px rgb(4, 78, 112);
+}
+
+
+
+
+
+
+/* Estilos para telas pequenas (até 768px) */
+@media only screen and (max-width: 768px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 3rem;
+        padding-left: 30px;
+        margin-top: 380px;
+    }
+
+    .contact-text h2 {
+        margin-top: 65px;
+        font-size: 100px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .contact-text h4 {
+        margin: 45px 0;
+        color: rgb(228, 228, 228);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact-text p {
+        color: rgb(177, 177, 177);
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 2rem;
+
+    }
+
+    .contact-list {
+        margin-bottom: 3rem;
+
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+        display: block;
+
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .contact-list i {
+        display: inline-block;
+        color: rgb(4, 78, 112);
+        font-size: 25px;
+        font-weight: 600;
+        transition: all .40s ease;
+    }
+
+    .contact-form form {
+        position: relative;
+    }
+
+    .contact-form form input,
+    form textarea {
+
+        border: none;
+        outline: none;
+        width: 90%;
+        padding: 18px;
+        background: #555557;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .contact-form textarea {
+        resize: none;
+        height: 220px;
+    }
+
+    .contact-form form .send {
+        display: inline-block;
+        padding: 12px 28px;
+        background: rgb(104, 172, 204);
+        border-radius: 40px;
+        font-size: 18px;
+        color: rgb(4, 78, 112);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px rgb(4, 78, 112),
+            0 0 25px rgb(4, 78, 112);
+        cursor: pointer;
+
+    }
+
+    .contact-form form .send:hover {
+        background: rgb(5, 103, 148);
+        color: black;
+        box-shadow: 0 0 20px rgb(4, 78, 112);
+    }
+}
+
+/* Estilos para telas médias (de 769px a 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 3rem;
+        padding-left: 30px;
+        margin-top: 380px;
+    }
+
+    .contact-text h2 {
+        margin-top: 65px;
+        font-size: 100px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .contact-text h4 {
+        margin: 45px 0;
+        color: rgb(228, 228, 228);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact-text p {
+        color: rgb(177, 177, 177);
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 2rem;
+
+    }
+
+    .contact-list {
+        margin-bottom: 3rem;
+
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+        display: block;
+
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .contact-list i {
+        display: inline-block;
+        color: rgb(4, 78, 112);
+        font-size: 25px;
+        font-weight: 600;
+        transition: all .40s ease;
+    }
+
+    .contact-form form {
+        position: relative;
+    }
+
+    .contact-form form input,
+    form textarea {
+
+        border: none;
+        outline: none;
+        width: 90%;
+        padding: 18px;
+        background: #555557;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .contact-form textarea {
+        resize: none;
+        height: 220px;
+    }
+
+    .contact-form form .send {
+        display: inline-block;
+        padding: 12px 28px;
+        background: rgb(104, 172, 204);
+        border-radius: 40px;
+        font-size: 18px;
+        color: rgb(4, 78, 112);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px rgb(4, 78, 112),
+            0 0 25px rgb(4, 78, 112);
+        cursor: pointer;
+
+    }
+
+    .contact-form form .send:hover {
+        background: rgb(5, 103, 148);
+        color: black;
+        box-shadow: 0 0 20px rgb(4, 78, 112);
+    }
+}
+
+/* Estilos para telas grandes (a partir de 1025px) */
+@media only screen and (min-width: 1025px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 3rem;
+        padding-left: 30px;
+        margin-top: 380px;
+    }
+
+    .contact-text h2 {
+        margin-top: 65px;
+        font-size: 100px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .contact-text h4 {
+        margin: 45px 0;
+        color: rgb(228, 228, 228);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact-text p {
+        color: rgb(177, 177, 177);
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 2rem;
+
+    }
+
+    .contact-list {
+        margin-bottom: 3rem;
+
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+        display: block;
+
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .contact-list i {
+        display: inline-block;
+        color: rgb(4, 78, 112);
+        font-size: 25px;
+        font-weight: 600;
+        transition: all .40s ease;
+    }
+
+    .contact-form form {
+        position: relative;
+    }
+
+    .contact-form form input,
+    form textarea {
+
+        border: none;
+        outline: none;
+        width: 90%;
+        padding: 18px;
+        background: #555557;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .contact-form textarea {
+        resize: none;
+        height: 220px;
+    }
+
+    .contact-form form .send {
+        display: inline-block;
+        padding: 12px 28px;
+        background: rgb(104, 172, 204);
+        border-radius: 40px;
+        font-size: 18px;
+        color: rgb(4, 78, 112);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px rgb(4, 78, 112),
+            0 0 25px rgb(4, 78, 112);
+        cursor: pointer;
+
+    }
+
+    .contact-form form .send:hover {
+        background: rgb(5, 103, 148);
+        color: black;
+        box-shadow: 0 0 20px rgb(4, 78, 112);
+    }
+}
